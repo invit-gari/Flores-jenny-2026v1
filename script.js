@@ -14,7 +14,7 @@ const CONFIG = {
     "Ya te dije te amo?",
     "Te amo",
     "Te quiero aquí conmigo",
-    "Quiero verte"
+    "Quiero verte",
     "Sacate una",
     "O sacate las 2",
     "Aver su cola",
