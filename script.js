@@ -15,6 +15,9 @@ const CONFIG = {
     "Te amo",
     "Te quiero aquí conmigo",
     "Quiero verte"
+    "Sacate una",
+    "O sacate las 2",
+    "Aver su cola",
   ],
 
   // Cambia estas rutas por tus fotos:
