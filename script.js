@@ -20,17 +20,13 @@ const CONFIG = {
     "Aver su cola"
   ],
 
-  // Cambia estas rutas por tus fotos:
   photos: [
     "assets/fotos/foto1.jpg",
     "assets/fotos/foto2.jpg",
     "assets/fotos/foto3.jpg"
   ],
 
-  // Coloca tu MP3 en assets y cambia el nombre si quieres:
   music: "assets/musica.mp3",
-
-  // Tiempo entre mensajes.
   messageInterval: 1250
 };
 
@@ -50,7 +46,6 @@ let running = false;
 let messageTimer = null;
 let messageIndex = 0;
 let stars = [];
-let animationFrame = null;
 
 document.querySelector(".centerpiece h2").textContent = CONFIG.name;
 music.src = CONFIG.music;
@@ -85,7 +80,7 @@ function drawStars() {
     ctx.fillStyle = `rgba(255,248,220,${s.a})`;
     ctx.fill();
   }
-  animationFrame = requestAnimationFrame(drawStars);
+  requestAnimationFrame(drawStars);
 }
 drawStars();
 
@@ -172,7 +167,6 @@ musicBtn.addEventListener("click", async () => {
   }
 });
 
-// Permite que el botón también funcione con teclado.
 startBtn.addEventListener("keydown", e => {
   if (e.key === "Enter" || e.key === " ") startExperience();
 });
