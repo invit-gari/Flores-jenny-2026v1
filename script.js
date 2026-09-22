@@ -17,7 +17,11 @@ const CONFIG = {
     "Quiero verte",
     "Sacate una",
     "O sacate las 2",
-    "Aver su cola"
+    "Aver su cola",
+    "Shi?",
+    "Chichi pa panchito",
+    "Eh apenas acabe esto",
+    "no se duerma eh"
   ],
 
   photos: [
